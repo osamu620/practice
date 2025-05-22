@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 
-std::vector<int> make_data(int start) {
+std::vector<int> make_data(int start /* 引数(argument) */) {
   int a, b;
   std::vector<int> data;
 
